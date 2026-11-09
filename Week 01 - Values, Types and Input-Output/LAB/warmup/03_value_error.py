@@ -1,6 +1,4 @@
-# BROKEN ON PURPOSE.
-# Run it, type 23.7 when asked, read the last line, then fix it.
-
-value = int(input("Value: "))
+p# Fixed: accept decimal input without raising ValueError.
+value = float(input("Value: "))
 
 print(value)
